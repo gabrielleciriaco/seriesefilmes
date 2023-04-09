@@ -1,0 +1,122 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-color: rgba(48, 47, 47, 0.5); /* Cor de fundo semitransparente */
+    background-blend-mode: overlay; /* Modo de mistura de fundo */
+}
+
+header{
+    text-align: center;
+    color: black;
+    padding: 40px 0;
+}
+
+.caixa {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #c78c19;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #000000;
+}
+
+main.principal{
+    text-align: center;
+    margin-top: 300px;
+    color: white;
+    padding: 3em 0;
+    opacity: 0.6;
+    width: 940px;
+    margin: 0 auto;
+}
+main.p{
+    margin: 0 0 1em;
+}
+
+h1{
+    font-weight: bold;
+    color: #c78c19;
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+h2{
+    margin-top: 50px;
+}
+
+footer{
+    text-align: center; margin-top: 50px; color: white;
+}
+
+form{
+    margin: 100px 0;
+    color: white;
+    opacity: 0.6;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.contato{
+    width: 940px;
+    margin: 0 auto; 
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0px;
+}
+
+.enviar{
+    background: black;
+    width: 40%;
+    padding: 15px 0;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    }
+
+.enviar:hover{
+    background: #c78c19;
+    cursor: pointer;
+}
+
+
